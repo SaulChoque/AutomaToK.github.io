@@ -32,7 +32,7 @@ body {
 .nav_container{
     display: flex;
     cursor: pointer;
-    height: 32px;
+    height: 125px;
     align-items: center;
     /*
     -webkit-box-pack: justify;
@@ -42,7 +42,20 @@ body {
     justify-content: space-between;
     
 }
+.nav_container a{
+    font-family: 'TkTkFont',TikTokDisplayFont-Bold;
+    color: rgb(255, 255, 255);  
+    font-size: 53px;
 
+}
+.navbutton svg {
+    width: 100px;
+}
+svg, img, embed, object {
+    display: block;
+    height: auto;
+    max-width: 100%;
+}
 /* PAGE MAX (TELEFONO)*/
 @media screen and (max-width: 980px) {
     .container {
@@ -70,7 +83,7 @@ body {
 
     .navbutton {
         display: block;
-        height: 200%;
+        height: 100%;
         background: none;
         border: none;
         padding-top: 4px;
@@ -78,11 +91,7 @@ body {
         align-items: right;
     }
     
-    .navlogo{
-        font-family: 'TkTkFont',TikTokDisplayFont-Bold;
-        color: rgb(255, 255, 255);  
-        font-size: 15px;
-    }
+
     
     .navbar{
         display: none;
@@ -142,14 +151,6 @@ body {
     
 }
 
-.navbutton svg {
-    width: 50px;
-}
-svg, img, embed, object {
-    display: block;
-    height: auto;
-    max-width: 100%;
-}
 
 .container a{
     font-family: 'TkTkFont',TikTokDisplayFont-Bold;
