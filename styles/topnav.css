@@ -29,6 +29,19 @@ body {
     
     animation: 2s ease 0s 1 normal both running animation-1o5jvb1;
 }
+.nav_container{
+    display: flex;
+    cursor: pointer;
+    height: 32px;
+    align-items: center;
+    /*
+    -webkit-box-pack: justify;
+    -webkit-justify-content: space-between;
+    justify-content: space-between;*/
+    margin: 3%;
+    justify-content: space-between;
+    
+}
 
 /* PAGE MAX (TELEFONO)*/
 @media screen and (max-width: 980px) {
@@ -54,6 +67,7 @@ body {
         font-size: 2em;
         text-align: right;
     }
+
     .navbutton {
         display: block;
         height: 200%;
@@ -64,6 +78,12 @@ body {
         align-items: right;
     }
     
+    .navlogo{
+        font-family: 'TkTkFont',TikTokDisplayFont-Bold;
+        color: rgb(255, 255, 255);  
+        font-size: 15px;
+    }
+    
     .navbar{
         display: none;
     }
@@ -71,6 +91,7 @@ body {
     .container div{
         border: 2px solid white;
     }
+
     .headerTitle{        
         padding: 3%;
         padding-right: 10%;
@@ -85,6 +106,7 @@ body {
 /* PAGE MIN */
 @media screen and (min-width: 981px){
     .navbar {
+        
         display: -webkit-box;
         display: -webkit-flex;
         display: -ms-flexbox;
@@ -141,36 +163,19 @@ nav {
     unicode-bidi: isolate;
 }
 */
+/*
 .topnav {
-
+    
+}
+*/
+.topnav {
+ 
     overflow: hidden;
     background-color: rgba(0, 0, 0, 1);
-    text-align: right; /* Alineación hacia la derecha */
+    text-align: right;  
 }
+  
 
-.nav_container{
-    margin: 3%;
-}
-  
-.topnav a {
-    float: none; /* Eliminar la propiedad float */
-    display: inline-block; /* Mostrar los elementos en línea */
-    color: #f2f2f2;
-    text-align: center;
-    padding: 14px 16px;
-    text-decoration: none;
-    font-size: 17px;
-}
-  
-.topnav a:hover {
-    background-color: #ddd;
-    color: black;
-}
-  
-.topnav a.active {
-    background-color: rgba(254, 44, 85, 1);
-    color: white;
-}
 
 
 
