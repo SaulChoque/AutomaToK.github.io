@@ -5,34 +5,60 @@
     <title>AutomaToK</title>
 </head>
 <body>
-    <div class="topnav">
-        <div class="nav_container">
-            <a class="navlogo">AutomaToK</a>
-            <button data-e2e="components-header-HamburgerIcon" class="navbutton">
-                <svg fill="currentColor" data-e2e="components-header-Icon3LinesHorizontal" viewBox="0 0 48 48" xmlns="http://www.w3.org/2000/svg" width="1em" height="1em">
-                    <path d="M9 13c0-.55.42-1 .94-1h28.12c.52 0 .94.45.94 1v2c0 .55-.42 1-.94 1H9.94c-.52 0-.94-.45-.94-1v-2Zm0 10c0-.55.42-1 .94-1h28.12c.52 0 .94.45.94 1v2c0 .55-.42 1-.94 1H9.94c-.52 0-.94-.45-.94-1v-2Zm.94 9c-.52 0-.94.45-.94 1v2c0 .55.42 1 .94 1h28.12c.52 0 .94-.45.94-1v-2c0-.55-.42-1-.94-1H9.94Z">
-                    </path>
-                </svg>
-            </button>
-        </div>
-    </div>
-    <nav class="navbar">
-        <a class="active" href="#index">Home</a>
-        <a href="#login">Login</a>
-        <a href="#register">Register</a>
-        <button style="background-color:#f8f8f8" class="accountbutton" data-e2e="components-UserAvatar-TUXIconButton">
-            <svg fill="currentColor" data-e2e="components-UserAvatar-IconPersonFill" viewBox="0 0 48 48" xmlns="http://www.w3.org/2000/svg" width="1em" height="1em">
-                <path d="M24 4a10 10 0 1 0 0 20 10 10 0 0 0 0-20Zm0 23C13.06 27 7 34.92 7 41.44 7 45 9 45 16 45h16c7 0 9 0 9-3.56C41 34.92 34.94 27 24 27Z">
-                </path>
-            </svg>
-        </button>
+    <div id="root">
+        <div class="entirebody">
+            <div class="topnav">
+                <div class="nav_container">
+                    <a class="navlogo">AutomaToK</a>
+                    <button data-e2e="components-header-HamburgerIcon" class="navbutton">
+                        <svg fill="currentColor" data-e2e="components-header-Icon3LinesHorizontal" viewBox="0 0 48 48" xmlns="http://www.w3.org/2000/svg" width="1em" height="1em">
+                            <path d="M9 13c0-.55.42-1 .94-1h28.12c.52 0 .94.45.94 1v2c0 .55-.42 1-.94 1H9.94c-.52 0-.94-.45-.94-1v-2Zm0 10c0-.55.42-1 .94-1h28.12c.52 0 .94.45.94 1v2c0 .55-.42 1-.94 1H9.94c-.52 0-.94-.45-.94-1v-2Zm.94 9c-.52 0-.94.45-.94 1v2c0 .55.42 1 .94 1h28.12c.52 0 .94-.45.94-1v-2c0-.55-.42-1-.94-1H9.94Z">
+                            </path>
+                        </svg>
+                    </button>
+                </div>
+                <nav class="navbar">
+                    <a class="home" href="#index">Home</a>
+                    <a class="login" href="#login">Login</a>
+                    <a class="register" href="#register">Register</a>
+                    <button style="background-color:#f8f8f8" class="accountbutton" data-e2e="components-UserAvatar-TUXIconButton">
+                        <svg fill="currentColor" data-e2e="components-UserAvatar-IconPersonFill" viewBox="0 0 48 48" xmlns="http://www.w3.org/2000/svg" width="1em" height="1em">
+                            <path d="M24 4a10 10 0 1 0 0 20 10 10 0 0 0 0-20Zm0 23C13.06 27 7 34.92 7 41.44 7 45 9 45 16 45h16c7 0 9 0 9-3.56C41 34.92 34.94 27 24 27Z">
+                            </path>
+                        </svg>
+                    </button>
+            
+                </nav>
+            </div>
 
-    </nav>
-    <div class="container">
-        <div class="headerTitle">
-            <a>
-                What is <br> AutomaToK?
-            </a>
+            <!-- Container used for the entire body -->
+            <main class="container">
+                <!-- header contains the first elements of the container -->
+                <div class="header">
+                    <!-- first element of header -->
+                    <div class="headerTitleUp">
+                        <span class="headerTitle">
+                            <div class="hdtitlecont">
+                                <div class="hdrtext">
+                                    Make ur life easier &nbsp;
+                                </div>
+                                
+                            </div>
+                        </span>
+                    </div>
+                    <!-- second element of header -->
+                    <div class="headerTitleDown">
+                        <span class="DownTitle">
+                            What is AutomaToK? &nbsp;
+                        </span>
+                        <div class="muenn">
+
+                        </div>
+
+
+                    </div>
+                </div>
+            </main>
         </div>
     </div>
     
